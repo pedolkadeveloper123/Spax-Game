@@ -6,11 +6,15 @@
 }
 
 body {
-   font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-    color: #333;
+  background-color:#121215;
+color: #EAEAEa;
+
+font-family: 'Roboto', sans-serif;
+
+display: grid;
+grid-template-areas: "profile timeline";
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 100vh;
 }
 
 header {
